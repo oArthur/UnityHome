@@ -2,3 +2,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("/assets/fonts/Poppins/Poppins-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("/assets/fonts/Poppins/Poppins-Bold.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url("/assets/fonts/Pacifico/Pacifico-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body { height: 100%; scroll-behavior: smooth; background-color: #637368}
+
+body { margin: 0; font-family: Poppins, "Helvetica Neue", sans-serif; }

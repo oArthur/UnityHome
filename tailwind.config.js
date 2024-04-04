@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
+    fontFamily: {
+      'pacifico': ['Pacifico', 'Arial', 'sans-serif']
+    },
     extend: {},
   },
   plugins: [],
