@@ -1,6 +1,24 @@
 # UnityHomeApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+
+## Sobre o Projeto
+O UnityHome é um aplicativo de gerenciamento doméstico projetado para ajudar os usuários a organizar e harmonizar suas rotinas e tarefas domésticas. Com recursos como mural de avisos, listas de compras, receitas de família e muito mais, o aplicativo busca simplificar a gestão da vida doméstica.
+
+## Funcionalidades
+- **Login/Registro**: Acesso seguro ao aplicativo.
+- **Criação de Casa/Grupo**: Permite aos usuários criar e gerenciar grupos familiares ou de conviventes.
+- **Mural de Avisos**: Local centralizado para postagem de avisos e lembretes importantes.
+- **Listas de Compras**: Criação e compartilhamento de listas de compras entre os membros da casa.
+- **Receitas de Família**: Espaço para armazenar e compartilhar receitas favoritas.
+
+## Tecnologias Utilizadas
+- Frontend: Angular, para uma experiência de usuário fluida e responsiva em dispositivos móveis.
+- Backend: Python para gerenciamento de servidor e APIs.
+- Banco de Dados: PostgresSQL para armazenamento de dados estruturados.
+
+## Imagens
+
+<img src="https://i.imgur.com/hAZsk1y.png" />
 
 ## Development server
 
