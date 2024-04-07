@@ -1,0 +1,22 @@
+<div [ngClass]="{'w-180 h-90 cursor-pointer': size === 'xs','w-361 h-130': size === 'md','w-360 h-180': size === 'xl'}"
+     class="bg-card-primary flex flex-col rounded-3xl shadow-lg">
+  <div *ngIf="!isXl" class="p-3 h-full flex flex-col justify-center">
+    <h2 *ngIf="size === 'xs'" class="text-xl text-black font-semibold">{{ Title }}</h2>
+    <h2 *ngIf="size === 'xs'" class="text-xs text-black/60">{{ Subtitle }}</h2>
+    <ng-content></ng-content>
+  </div>
+  <div *ngIf="isXl" class="w-full h-full">
+    <div class="p-3 h-1/3 w-full flex flex-row items-center justify-between">
+      <div class="w-2/3 flex flex-col">
+        <h2 class="text-xl text-black font-semibold">{{ Title }}</h2>
+        <p class="text-xs text-black/60">{{ Subtitle }}</p>
+      </div>
+      <button *ngIf="ButtonTxt" mat-button>{{ ButtonTxt }}</button>
+      <button *ngIf="ButtonIcon" mat-icon-button><mat-icon>{{ ButtonIcon }}</mat-icon></button>
+    </div>
+    <div class="bg-secondary w-full h-2/3 rounded-b-3xl">
+      <ng-content></ng-content>
+    </div>
+  </div>
+
+</div>
